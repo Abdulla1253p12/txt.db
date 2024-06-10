@@ -8,13 +8,19 @@
     "start": "node src/index.js"
   },
   "types": "src/index.d.ts",
-  "dependencies": {
-    "fs": "^0.0.1-security"
+  "files": [
+    "src/index.js",
+    "src/",
+    "db-txt/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Abdulla1253p12/txt.db.git"
   },
   "devDependencies": {
     "typescript": "^4.0.0"
   },
-  "keywords": ["database", "db", "zatet.database", "zatet.db", "zatet", "text", "txt", "file", "files"],
+  "keywords": ["database", "db", "txt.database", "txt.db", "txt", "text", "file", "files"],
   "author": "Tope, Abdullah",
   "license": "ISC"
 }
