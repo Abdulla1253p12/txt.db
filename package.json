@@ -1,0 +1,20 @@
+{
+  "name": "txt.db",
+  "version": "1.0.0",
+  "description": "Database using txt file",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node src/index.js"
+  },
+  "types": "src/index.d.ts",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  },
+  "keywords": ["database", "db", "zatet.database", "zatet.db", "zatet", "text", "txt", "file", "files"],
+  "author": "Tope, Abdullah",
+  "license": "ISC"
+}
